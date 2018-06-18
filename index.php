@@ -1,6 +1,6 @@
 <?php
 
-function greeting($name, $day) {
+function greeting($name = 'аноним', $day) {
 	switch ($day) {
 		case 'Понедельник':
 		case 'Вторник':
@@ -14,7 +14,7 @@ function greeting($name, $day) {
 			echo "Привет $name! Желаю вам хорошо отдохнуть в этот день!";
 			break;
 		default:
-			echo "Привет! Хорошего тебе дня!";
+			echo "Привет $name! Хорошего тебе дня!";
 			break;
 	}
 	echo "<br>";
