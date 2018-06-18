@@ -13,6 +13,9 @@ function greeting($name, $day) {
 		case 'Воскресенье':
 			echo "Привет $name! Желаю вам хорошо отдохнуть в этот день!";
 			break;
+		default:
+			echo "Привет! Хорошего тебе дня!";
+			break;
 	}
 	echo "<br>";
 }
